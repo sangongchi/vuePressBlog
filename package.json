@@ -1,0 +1,18 @@
+{
+  "name": "vuepressblog",
+  "version": "1.0.0",
+  "description": "使用vuePress搭建个博客",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangongchi/vuePressBlog.git"
+  },
+  "author": "sangongchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangongchi/vuePressBlog/issues"
+  }
+}
