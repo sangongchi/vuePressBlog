@@ -1,10 +1,10 @@
 ---
-title: 分类测试
+title: react
 date: 2019-12-15
 tags:
-  - tag5
+  - react
 categories:
-  - category3
+  - React
 ---
 
 first page in category2

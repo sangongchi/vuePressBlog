@@ -1,6 +1,6 @@
 ---
 title: vuepress-theme-reco
-date: 2019-04-09
+date: 2019-12-14
 ---
 
 ![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)

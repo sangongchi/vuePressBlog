@@ -64,13 +64,25 @@ module.exports = {
     sidebar: {
       '/notes/': [
         {
-          title: '语言',
+          title: '虚拟机',
           collapsable: true,
-          children: ['language/chinese', 'language/en']
+          children: [
+            'Vmware/安装配置java环境-centos7',
+            'Vmware/安装google浏览器',
+            'Vmware/部署easymock',
+            'Vmware/基本命令',
+            'Vmware/配置中文',
+            'Vmware/网卡配置',
+            'Vmware/bypy 百度云连接',
+            'Vmware/centos7操作笔记',
+            'Vmware/jenkins配置安装',
+            'Vmware/mongodb',
+            'Vmware/nginx安装配置'
+          ]
         },
         {
-          title: '测试',
-          collapsable: false,
+          title: '前端笔记',
+          collapsable: true,
           children: ['web/Canvas']
         }
       ]
