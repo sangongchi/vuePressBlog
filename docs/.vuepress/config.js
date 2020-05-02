@@ -7,16 +7,16 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: '/favicon.ico'
-      }
+        href: '/favicon.ico',
+      },
     ],
     [
       'meta',
       {
         name: 'viewport',
-        content: 'width=device-width,initial-scale=1,user-scalable=no'
-      }
-    ]
+        content: 'width=device-width,initial-scale=1,user-scalable=no',
+      },
+    ],
   ],
   theme: 'reco',
   themeConfig: {
@@ -24,17 +24,17 @@ module.exports = {
       {
         text: 'Home',
         link: '/',
-        icon: 'reco-home'
+        icon: 'reco-home',
       },
       {
         text: 'note',
         link: '/notes/',
-        icon: 'reco-document'
+        icon: 'reco-document',
       },
       {
         text: '时间线',
         link: '/timeline/',
-        icon: 'reco-date'
+        icon: 'reco-date',
       },
       {
         text: 'Contact',
@@ -43,49 +43,37 @@ module.exports = {
           {
             text: 'GitHub',
             link: 'https://github.com/sangongchi',
-            icon: 'reco-github'
-          }
-        ]
-      }
+            icon: 'reco-github',
+          },
+        ],
+      },
     ],
     type: 'blog',
     blogConfig: {
       category: {
         location: 2,
-        text: 'Category'
+        text: 'Category',
       },
       tag: {
         location: 3,
-        text: 'Tag'
-      }
+        text: 'Tag',
+      },
     },
     sidebarDepth: 2,
     displayAllHeaders: false,
     sidebar: {
       '/notes/': [
-        {
-          title: '虚拟机',
-          collapsable: true,
-          children: [
-            'Vmware/安装配置java环境-centos7',
-            'Vmware/安装google浏览器',
-            'Vmware/部署easymock',
-            'Vmware/基本命令',
-            'Vmware/配置中文',
-            'Vmware/网卡配置',
-            'Vmware/bypy 百度云连接',
-            'Vmware/centos7操作笔记',
-            'Vmware/jenkins配置安装',
-            'Vmware/mongodb',
-            'Vmware/nginx安装配置'
-          ]
-        },
+        // {
+        //   title: '虚拟机',
+        //   collapsable: true,
+        //   children: ['Vmware/*.md'],
+        // },
         {
           title: '前端笔记',
           collapsable: true,
-          children: ['web/Canvas']
-        }
-      ]
+          children: ['web/Canvas'],
+        },
+      ],
     },
     // friendLink: [
     //   {
@@ -102,8 +90,8 @@ module.exports = {
     lastUpdated: 'Last Updated',
     author: 'sangongchi',
     authorAvatar: '/avatar.png',
-    record: 'xxxx',
-    startYear: '2017'
+    record: 'sangongchi',
+    startYear: '2019',
   },
   //评论插件的安装使用
   valineConfig: {
@@ -111,10 +99,10 @@ module.exports = {
     appKey: 'CQ8FKrMUP76LwycPcKlDoRqV', // your appKey
     placeholder: '是时候展现真正的技术了',
     avatar: 'wavatar',
-    serverUrl: 'https://leanserver.smallsunnyfox.com'
+    serverUrl: 'https://leanserver.smallsunnyfox.com',
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
   },
-  port:6666
+  port: 3333,
 };
