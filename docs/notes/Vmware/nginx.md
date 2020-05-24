@@ -1,6 +1,6 @@
 ---
 title: nginx的配置安装使用
-date: 2018-09
+date: 2018-09-02
 tags:
   - nginx
   - 服务器相关

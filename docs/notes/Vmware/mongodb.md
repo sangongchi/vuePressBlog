@@ -1,6 +1,6 @@
 ---
 title: Mongodb的安装使用
-date: 2018-09
+date: 2018-09-04
 tags:
   - Mongodb
   - 数据库

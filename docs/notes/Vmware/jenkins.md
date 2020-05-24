@@ -1,6 +1,6 @@
 ---
 title: jenkins自动化构建的安装使用
-date: 2018-09
+date: 2019-12-01
 tags:
   - jenkins
 categories:

@@ -1,6 +1,6 @@
 ---
 title: Centos7安装配置java环境
-date: 2018-09
+date: 2018-09-00
 tags:
   - java
   - centos7

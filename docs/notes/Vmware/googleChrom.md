@@ -1,6 +1,6 @@
 ---
 title: 虚拟机中安装谷歌浏览器
-date: 2018-09
+date: 2018-09-04
 tags:
   - centos7
 categories:

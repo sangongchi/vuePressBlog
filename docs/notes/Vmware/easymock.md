@@ -1,6 +1,6 @@
 ---
 title: easyMock的部署
-date: 2018-09
+date: 2018-09-01
 tags:
   - easyMock
 categories:

@@ -1,6 +1,6 @@
 ---
 title: 配置中文环境
-date: 2018-09
+date: 2019-12-15
 tags:
   - language
 categories:

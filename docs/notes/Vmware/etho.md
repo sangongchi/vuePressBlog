@@ -1,6 +1,6 @@
 ---
 title: 网卡配置
-date: 2018-09
+date: 2018-09-04
 tags:
   - network
 categories:
