@@ -1,5 +1,5 @@
 ---
-title: 配置中文环境
+title: 配置中文环境测试
 date: 2019-12-15
 tags:
   - language
