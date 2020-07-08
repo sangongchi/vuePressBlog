@@ -1,17 +1,12 @@
 $accentColor = #FF8C00
 $textColor = #232521
-
-$themePicker = {
-	colorName1: #0033FF, // 极浓海蓝
-  colorName2: #8B00FF, // 紫罗兰色
-  colorName3: #00BFFF, // 深天蓝
-	colorName4: #FF8C00 // 暗橙
-}
+$textShadow = 0
 
 // 首页图片上文字颜色
 .home-blog .hero h1, .home-blog .hero .description, .home-blog .hero .action {
-  color: #fff!important
+  color: #FF8C00!important
 }
+// 文章和标签中间的竖线
 .home-blog .home-blog-wrapper .info-wrapper .num > div:first-child {
     border-right: 1px solid #eaecef;
 }
@@ -27,19 +22,12 @@ $themePicker = {
     }
   }
 }
-div[class*="language-"] {
-  &::before {
-    top 0.2em
-  }
-}
 .info-wrapper .category-wrapper .category-item{
   box-shadow: none!important;
 }
-.home-blog .home-blog-wrapper .info-wrapper {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 70px;
+.comments-wrapper .valine-wrapper #valine.v .vlist .vh .vcontent {
+  box-shadow: none!important;
 }
-.abstract-wrapper .abstract-item:last-child {
-  margin-bottom: 24px;
+.comments-wrapper .valine-wrapper #valine.v .vlist .vh .vmeta .vat {
+  box-shadow: none!important;
 }
