@@ -8,14 +8,6 @@ categories:
   - 前端
 ---
 
-
-
-
-
-# VUE
-
----
-
 ## Vue 的Render
 
 ### `createElement(tag,options,VNodes)` 
